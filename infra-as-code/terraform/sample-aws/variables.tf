@@ -47,7 +47,7 @@ variable "number_of_worker_nodes" {
 
 variable "ssh_key_name" {
   description = "ssh key name, not required if your using spot instance types"
-  default = "upyogaws" #REPLACE
+  default = "ssh key name" #REPLACE
 }
 
 
@@ -58,7 +58,7 @@ variable "db_name" {
 
 variable "db_username" {
   description = "RDS database user name"
-  default = "upyogaws" #REPLACE
+  default = "upyogawsdb" #REPLACE
 }
 
 #DO NOT fill in here. This will be asked at runtime
@@ -72,7 +72,7 @@ variable "public_key" {
 ## change ssh key_name eg. digit-quickstart_your-name
 
 variable "key_name" {
-  default = "digit-quickstart"  
+  default = "upyogaws-quickstart"  
   description = "ssh key name"
 }
 
